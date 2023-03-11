@@ -76,3 +76,9 @@ def generate_tickets(ticket_count, max_number):
     return (unique_numbers, random.choice(unique_numbers))
     
 print(generate_tickets(5, 10))
+
+
+# we will generate our own modules!
+# located in custom_module, and in two files
+# when this file is run, a temp python directory called __pycache__ is created
+# this has the partially compiled code that is ready to use quickly

@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./python/PCAP/modules_packages/custom_module"
+    ]
+}

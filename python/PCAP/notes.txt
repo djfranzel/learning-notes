@@ -2,3 +2,5 @@
 PCAP (Certified Associate in Python Programming)
 https://www.udemy.com/course/python-pcap/learn/lecture/33469658#overview
 
+Todo:
+- need more work on modules! don't really understand how to create my own
