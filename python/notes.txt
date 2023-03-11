@@ -2,8 +2,12 @@
 PCEP (Certified Entry-level Python Programmer)
 https://www.udemy.com/course/python-pcep/learn/lecture/36228848#content
 
+Got 86% on the practice exam, 70% required to pass. 
+Probably will not take this cert, and instead take the PCAP since it 
+is more valuable and a challenge. 
 
 bool, int, float, str, tuples are all immutable
 list, dict, set are mutable
 
-*** need to work on bit operators, not really familiar at all
+Todo:
+- need to work on bit operators, not really familiar at all
