@@ -1,5 +1,6 @@
 
 # collections or container data types
+# MUTABLE
 
 # list! in python not an array, it is a list - I guess it probably doesn't matter that much
 top_cities = ['New York City', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix']

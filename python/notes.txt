@@ -1,0 +1,9 @@
+
+PCEP (Certified Entry-level Python Programmer)
+https://www.udemy.com/course/python-pcep/learn/lecture/36228848#content
+
+
+bool, int, float, str, tuples are all immutable
+list, dict, set are mutable
+
+*** need to work on bit operators, not really familiar at all

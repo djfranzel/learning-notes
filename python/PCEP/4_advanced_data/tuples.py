@@ -1,6 +1,7 @@
 
 # similar to lists, but tuples are immutable!! 
 # strings in python are also immutable, so changing requires new assignment/declaration
+# IMMUTABLE
 
 empty_tuple = ()
 one_el_tuple_a = (1,)

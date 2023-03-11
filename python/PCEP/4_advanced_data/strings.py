@@ -1,5 +1,6 @@
 
 # more info on strings and manipulation
+# IMMUTABLE (int/float are also immutable)
 fav_band = 'Green Day'
 print(fav_band[6]) # this prints 'D'
 
@@ -23,3 +24,4 @@ else:
     print('Nay!')
 
 # there are many more string manipulation methods, look them up sometime
+

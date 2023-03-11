@@ -1,5 +1,6 @@
 
 # dictionaries are collections of data used to store key/value pairs
+# MUTABLE!
 
 emails = {
     'Anne Stahl': 'astahl@gmail.com',
