@@ -1,5 +1,7 @@
 {
     "python.analysis.extraPaths": [
-        "./python/PCAP/modules_packages/custom_module"
+        "./python/PCAP/modules_packages/custom_module",
+        "./python/PCAP/modules_packages/custom_module",
+        "./python/PCAP/modules_packages/quiz_module"
     ]
 }

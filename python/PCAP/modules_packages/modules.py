@@ -82,3 +82,39 @@ print(generate_tickets(5, 10))
 # located in custom_module, and in two files
 # when this file is run, a temp python directory called __pycache__ is created
 # this has the partially compiled code that is ready to use quickly
+
+# when you import your own module, run it and then python stores the 
+# semi-compiled code in __pycache__ , this is mostly compiled and I think
+# just needs to be interpreted by the python PVM (not sure on that!)
+
+
+# python uses a variable to store potential paths for the modules that you import
+# called the sys variable!
+import sys
+
+# this returns a list of strings which are paths
+# each path is checked in order, and as soon as one has the right file, it returns
+# first checks parent directory, then some python system files
+# print(sys.path)
+for path in sys.path:
+    print(path)
+
+
+# if our module isn't in this list, we could add it manually to take advantage of storing ours
+sys.path.append('secret') # this is a relative path, points to a directory from this location
+# could also add absolute path, but then different systems wouldn't recognize it likely
+for path in sys.path:
+    print(path)
+
+# PACKAGES!
+# this is basically a nice collection of all your modules
+
+# when I import this module below, just the import statement causes __init__.py to run!
+# this is useful if you need to initialize module with boilerplate code and 
+# don't want that boilerplate to run all the time when calling
+# used to be true that __init__.py was required for python to consider a directory a package 3.3 and up not required
+# traverse package contents with custom_module.next.next.module for accessing the modules
+import custom_module
+
+
+# namespace - abstract space where names for objects and elements exist
