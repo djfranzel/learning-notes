@@ -1,0 +1,33 @@
+
+Pluralsight course:
+https://app.pluralsight.com/course-player?clipId=60afd4bb-bad7-437c-ae2d-406cf796a4de
+Vue@3.2.41
+Vue.CLI@3.2.41
+Vite@3.2.0
+Pinia@2.0.23
+
+Vue is a framework for building websites. It is fast to develop and easy to maintain. 
+
+HMR = hot module reloading
+
+Vue can be added modularly to old applications
+Angular may be better for giant corporate applications - why?
+
+Vue 3 is faster, supports TS, smaller package
+
+TS works automatically rather than with lots of config as in Vue 2
+Uses tree-shaking which is a new tech that removes unneeded code - cool! always thought this would be great
+
+Vue is unopinionated
+Angular is opinionated
+
+unopinionated - easy to learn, multiple ways to implement a task, developer style can vary
+opinionated - harder to learn, less ways to implement tasks - leading to more similar code styles between developers
+
+Vue needs a tool to manage state
+needs external style libraries
+needs additional containers for deployment
+needs manual config of DB
+
+Angular or other opinionated frameworks might have the above features, which may take more time to learn, 
+but could result in better maintainability and even faster code, provided the dev knows the tools well
