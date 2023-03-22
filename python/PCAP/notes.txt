@@ -4,3 +4,7 @@ https://www.udemy.com/course/python-pcap/learn/lecture/33469658#overview
 
 Todo:
 - need more work on modules! don't really understand how to create my own
+
+Finished the final project, my approach was more procedural, while the suggested solution
+was more OOP. Both work the same way, I suppose mine makes more sense to me. Might be a good 
+thing to try and learn their way. Something about it seemed more extensible. 
