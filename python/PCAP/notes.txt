@@ -8,3 +8,51 @@ Todo:
 Finished the final project, my approach was more procedural, while the suggested solution
 was more OOP. Both work the same way, I suppose mine makes more sense to me. Might be a good 
 thing to try and learn their way. Something about it seemed more extensible. 
+
+Took an official practice test: 
+Modules & Packages      67%
+Exceptions              57%
+Strings                 44%
+OOP                     76%
+Misc.                   91%
+
+Total was 70%, the minimum required to pass
+
+Need to work on strings, exceptions and brush up on others!
+
+import p.m
+p.m.f()
+
+Above was a valid import (although would not likely be used) to access f()
+
+dir() is a method that a module can be passed into to get contents
+
+__str__ is called when printing an object
+
+DivideByZero error is an instance of ArithmeticError - an error that is a child of the parent will be caught here
+
+slicing a string does not error, simply will return empty strings for invalid indexes
+
+'assert' will raise AssertionError if it fails, good to know for special catching of this error
+
+accessing a non-existent index in a tuple will throw an exception index out of range 
+
+the codepoint for 'a' is 97 and 'A' is 65, so codepoint is capital first, then lowercase
+
+python escape sequence always begins with '\'
+
+accessing an index in a string that doesn't exist results in an exception
+
+'.isdigit()' method is part of the string object and will check if all chars are integers
+evaluates false for '1.2' or floats etc., only true for integers
+
+if calling a method in a class that uses the class to reference a method instead of 'self', then the 
+self must be passed in the argument - otherwise, how would the method know the context?
+
+when inheriting values from parent classes, all classes are considered in the context of the main class,
+then references of a value in one of the parent classes references the nearest value, getting the one
+in the main class if it exists
+
+__bases__ is of type tuple that contains info about direct superclasses of this class
+
+__dict__ will return lots of data on the class, and on the object instantiation, only the instance variables

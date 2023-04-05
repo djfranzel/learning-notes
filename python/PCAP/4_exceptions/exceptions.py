@@ -14,9 +14,9 @@ try:
 except:
     print('wrong!')
 else:
-    print('All good')
+    print('All good') # runs only if no exception
 finally:
-    print('finally!')
+    print('finally!') # always runs
 
 # finally will always run, and might work for closing db connections or other tasks
 
@@ -121,3 +121,7 @@ try:
     say_hello('', 'DTD324')
 except Exception as e:
     print(e)
+
+
+# it is possible to have multiple exceptions in the same except block
+# this is useful if the error is the same for either/all of that type of exception

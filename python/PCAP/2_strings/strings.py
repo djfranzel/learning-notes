@@ -4,6 +4,9 @@
 # UTF-8 is compatible with ASCII
 # uses only as many bits as needed (8-32)
 # video goes into theory of how strings are stored, not sure how relevant this is
+# string chars are stored as numbers called code points, each having a special code per char
+# this is stored in memory and decoded when accessing the string
+# ' ' char or space is code point 32
 
 # basic ops
 
@@ -89,3 +92,12 @@ for i in ['a','b','c','d','e']:
 
 print(len('\n'))
 print(len('\'\\'))
+
+
+print('string'[::-1]) # this reverses the direction
+print('string'[::4]) # selects every fourth char in a string
+
+# can also use max('string') or min()
+# this returns the char with the max or min code point value
+print(max('david'))
+
