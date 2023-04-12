@@ -56,3 +56,37 @@ in the main class if it exists
 __bases__ is of type tuple that contains info about direct superclasses of this class
 
 __dict__ will return lots of data on the class, and on the object instantiation, only the instance variables
+
+Took final official practice test: 
+Modules & Packages      67%
+Exceptions              86%
+Strings                 56%
+OOP                     71%
+Misc.                   91%
+
+Not a lot better than the first attempt. Not great considering many of the questions a duplicates to
+previous ones or reworked duplicates. 
+
+Careless mistake on one. 
+
+CPU info can be retreived through processor() and platform() - hardware() does not work for CPU
+
+Another careless mistake. 
+
+Another careless mistake. 
+
+ASCII is a subset of UNICODE
+
+UNICODE is a giant set of all characters that can be used, valid for all languages
+ASCII is the American Standard Code for Information Interchange. This is naturally a subset of UNICODE. 
+
+hasattr() method will return class variables in addition to instance variables for an object
+
+If your class inherits multiple classes, one of which uses a class further up the hierarchy that your 
+class also uses, you must put the class that is used as a superclass multiple layers up last in the argument list. 
+
+__dict__ will not return instance variables when called from the class because those only exist once the constructur is called
+
+Another careless mistake 
+
+errno.ENOENT is an error message that means no such file or directory

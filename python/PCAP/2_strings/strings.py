@@ -91,13 +91,16 @@ for i in ['a','b','c','d','e']:
     print(ord(i))
 
 print(len('\n'))
-print(len('\'\\'))
+print(len('\'\\')) # this is 2 because the escape precedes whatever char is next and doesn't count it
 
 
 print('string'[::-1]) # this reverses the direction
 print('string'[::4]) # selects every fourth char in a string
+print('string'[1::3]) # starts at index 1 and grabs every third char
 
 # can also use max('string') or min()
 # this returns the char with the max or min code point value
 print(max('david'))
 
+print(sorted('david'))
+print('david franzel'.split())
