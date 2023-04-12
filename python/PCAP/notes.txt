@@ -90,3 +90,11 @@ __dict__ will not return instance variables when called from the class because t
 Another careless mistake 
 
 errno.ENOENT is an error message that means no such file or directory
+
+Final exam: PASSED on first try!
+
+Modules and Packages      83%
+Exceptions                57%
+Strings                   94%
+OOP                       91%
+Lists,Lambdas,etc.        77%
