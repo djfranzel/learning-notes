@@ -1,0 +1,23 @@
+
+JavaScript! 
+dynamic - opposite of strongly typed, variables can be assigned any type
+interpreted - does not require compiling like java or c++ to run
+protoytype-based
+object-oriented, imperative and declarative
+
+requires an engine to run - all browsers provide this
+node.js can also run javascript in vm's etc. 
+
+HISTORY:
+created in 1995 for web applications that needed more flexibility than html and css offered
+Microsoft also developed their own version in IE
+this created compatibility problems
+
+ECMA International is a set of standards to keep different JS versions in check for cross-compatibility
+(european computers manufacturers association)
+
+they settled on JavaScript because Java was popular and wanted the positive association
+
+mozilla foundation is the successor to netscape navigator, an early web browser
+
+ECMAScript 6 is also ECMAScript 2015 is also ES6
