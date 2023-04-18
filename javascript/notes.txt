@@ -2,7 +2,7 @@
 JavaScript! 
 dynamic - opposite of strongly typed, variables can be assigned any type
 interpreted - does not require compiling like java or c++ to run
-protoytype-based
+protoytype-based - ?
 object-oriented, imperative and declarative
 
 requires an engine to run - all browsers provide this
