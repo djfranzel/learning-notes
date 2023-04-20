@@ -1,6 +1,6 @@
 
 // basic arithmetic is nothing to be surprised about
-// + - = * / %
+// + - = * / % **
 
 // Unary plus! this is new to me
 // this converts a value to a number

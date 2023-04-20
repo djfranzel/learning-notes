@@ -59,6 +59,10 @@ for a in range(1,6):
     for b in range(1, 6):
         print(a, 'x', b, '=', a * b)
 
+# this allows the loop to keep track of 'i' as it iterates
+for i, num in enumerate([1,4,3,6]):
+    print('i:', i)
+
 # something with loops and else! this is new for me
 # this is controversial in python
 # only if there is a break will the else not execute
